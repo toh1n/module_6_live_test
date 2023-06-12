@@ -1,16 +1,19 @@
 # module_6_live_test
 
-A new Flutter project.
+●     The page should have a Scaffold as the root widget.
 
-## Getting Started
+●     Inside the Scaffold, create an AppBar with the title "My Shopping List".
 
-This project is a starting point for a Flutter application.
+●     Below the AppBar, create a ListView widget to display the list of shopping items.
 
-A few resources to get you started if this is your first Flutter project:
+●     Each item in the list should be represented by a ListTile widget.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+●     Each ListTile should display an icon on the left, followed by the name of the shopping item.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+●     The list should have at least 5 shopping items.
+
+●     Add appropriate padding, spacing, and styling to make the app visually appealing.
+
+●     Use the IconButton widget to add an icon button on the AppBar. When pressed, it should display a Snackbar with the message "Cart is empty".
+
+![Screenshot_20230612_232101](https://github.com/toh1n/module_6_live_test/assets/89094831/383a3d96-12e4-4d7c-8825-b16258b40f52)
